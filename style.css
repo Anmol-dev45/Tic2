@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+.head {
+
+
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#endmssg {
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+}
+
+#mssg {
+   letter-spacing: 2px;
+   text-transform: uppercase;
+    color: violet;
+    font-size: 1.7rem;
+}
+
+.head h1 {
+    font-size: 3.7em;
+    font-weight: 100;
+}
+
+.orgi {
+    min-height: 60vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* For game board */
+#game_board {
+    background-color: rgb(206, 70, 206);
+    grid-gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+}
+
+
+
+#game_board div {
+    font-weight: lighter;
+    background-color: black;
+    display: flex;
+    font-size: 2.6rem;
+    /* padding: auto 0; */
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: rgb(195, 186, 146);
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding: 8px 30px;
+    color: rgba(75, 6, 94, 0.878);
+    transition: all .6s;
+
+}
+
+button:hover {
+    color: white;
+}
