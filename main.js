@@ -77,7 +77,7 @@ const Game = (e) => {
     round++
     if (round === 9) {
         endMssg.style.color = "yellow."
-        endMssg.textContent = `The game ends as a draw`
+        endMssg.textContent = `draw`
         mssg.textContent = `Click restart button to start new game`
 
 
